@@ -1,0 +1,14 @@
+{
+    "watch": [
+        "src"
+    ],
+    "ignore": [
+        ".git",
+        "src/tmp/**/*",
+        "node_modules/**/*"
+    ],
+    "execMap": {
+        "ts": "node -r ts-node/register/transpile-only --inspect=0.0.0.0:9225 src/main.ts"
+    },
+    "signal": "SIGINT"
+}
