@@ -32,7 +32,9 @@ module.exports = {
         'no-underscore-dangle': 'off',
         'no-param-reassign': 'off',
         'no-plusplus': 'off',
+        'no-restricted-syntax': 'off',
         'no-useless-constructor': 'off',
+        'no-restricted-syntax': 'off',
         'class-methods-use-this': 'off',
         'max-classes-per-file': 'off',
         'prefer-const': [
